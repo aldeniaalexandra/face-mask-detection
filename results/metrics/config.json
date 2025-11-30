@@ -1,0 +1,14 @@
+{
+    "model_name": "resnet50",
+    "epochs": 50,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "scheduler": "plateau",
+    "patience": 10,
+    "checkpoint_dir": "models\\checkpoints",
+    "results_dir": "results\\metrics",
+    "save_frequency": 10,
+    "device": "cpu",
+    "seed": 42
+}
